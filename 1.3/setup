@@ -15,5 +15,15 @@ public class Setup10
 public class Setup11 extends Module{
   function intentBaseLoader(){
      dortware.utils.load.loadutil.loadingutilforintentbaseloader.base.intentbase.loader.base.load()
+     this.trogg4led = true;
+     this.s = true;
+     this.se = true;
+     this.set = true;
+     this.setu = true;
+     thisr.setup = true;
+     this.setu = false;
+     this.set = false;
+     this.se = false;
+     this.s = false;
   }
 }
