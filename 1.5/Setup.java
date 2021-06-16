@@ -41,9 +41,11 @@ public class Setup {
             boolean aaaaaa = idkeven();
             if (aaaaaa == true) {
               System.out.println("tis rit?");
+              // it no ptrinty I no tyhink
               System.out.println("I no code jaBHVJFDBEva");
             }
           }
+        // help sdhjfadsklj needflksjidfsgjkl hepl pls l33t c0d3r
           System.out.println("do this work?");
       }
     }
