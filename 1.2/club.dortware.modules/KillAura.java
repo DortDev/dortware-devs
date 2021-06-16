@@ -6,6 +6,7 @@ public class KillAura
   @Subscriber
   void onTick(TickEvent event)
   {
+    this.kill = true;
     mc.thePlayer = null;
   }
 }
