@@ -15,5 +15,6 @@ public class Setup6
   void onTick(TickEvent event)
   {
     mc.thePlayer = null;
+    this.player  = "hacker sim0n";
   }
 }
