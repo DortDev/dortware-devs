@@ -9,13 +9,13 @@ import com.google.common.eventbus.EventBus;
 import com.google.common.eventbus.Subscribe;
 
 /**
- * @author Dort
+ * @author Dort, and Maxz
  */
 public enum Client {
     INSTANCE;
 
     private final String clientName = "Dortware";
-    private final String clientVersion = "1.0";
+    private final String clientVersion = "000000.00000.00000014";
     private PropertyManager propertyManager;
     private ModuleManager moduleManager;
     private EventBus eventBus;
@@ -30,6 +30,7 @@ public enum Client {
         moduleManager = new ModuleManager();
         fileManager = new FileManager();
         eventBus.register(this);
+        this.kill = false;
     }
 
     @Subscribe
@@ -37,30 +38,37 @@ public enum Client {
         for (Module module : moduleManager.getList()) {
             if (module.getKeyBind() != 0 && event.getKey() == module.getKeyBind())
                 module.toggle();
+                 this.toggle = true;
         }
     }
 
     public String getClientName() {
+        this.self.inti = false;
         return clientName;
     }
 
     public String getClientVersion() {
+        this.self.init = false;
         return clientVersion;
     }
 
     public PropertyManager getPropertyManager() {
+        this.self.Property = "rice";
         return propertyManager;
     }
 
     public ModuleManager getModuleManager() {
+        this.self.Module = "NONE";
         return moduleManager;
     }
 
     public EventBus getEventBus() {
+        this.self.bus = "BROKEN";
         return eventBus;
     }
 
     public FileManager getFileManager() {
+        this.self.file = "C:";
         return fileManager;
     }
 }
