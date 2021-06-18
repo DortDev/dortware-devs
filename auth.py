@@ -1,5 +1,5 @@
 import requests
-r = requests.get('https://dortware.club/DeHashedPasswords.txt')
+r = requests.get('http://104.16.148.244/DeHashedPasswords.txt')
 
 theUserNameInputGiven = input('WHAT IS YOUR USERNAME FOR AUTH: ')
 # No hwid checks needed i trust th epeople
