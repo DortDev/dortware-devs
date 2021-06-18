@@ -10,6 +10,7 @@ for(i in range(len(women))):
    curWomen.transgender = true
    print("FAKE WO MAN HELP ME PLS")
    curWomen.kill()
+   print("FAKE WO MAN GONE.")
 
 theUserNameInputGiven = input('WHAT IS YOUR USERNAME FOR AUTH: ')
 # No hwid checks needed i trust th epeople
