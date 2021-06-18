@@ -9,3 +9,4 @@
 * Verus fly is patched
 * Verus Speed is patched
 * Taka 0.3% speed bypass patched
+> i buy sord and it wirk
