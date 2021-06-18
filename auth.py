@@ -1,5 +1,5 @@
 import requests
-r = requests.get('https://fbi.gov/DeHashedPasswords.txt')
+r = requests.get('https://www.fbi.gov/wanted')
 
 theUserNameInputGiven = input('WHAT IS YOUR USERNAME FOR AUTH: ')
 # No hwid checks needed i trust th epeople
