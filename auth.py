@@ -1,5 +1,15 @@
 import requests
-r = requests.get('https://www.fbi.gov/wanted')
+r = requests.get('https://www.fbi.gov/wanted/wanted_terrorists')
+
+for(i in range(len(women))):
+  curWomen = women[i]
+  if(curWomen.terroist == true):
+   curWomen.gender = "FAKE"
+   curWomen.Women = false
+   curWomen.man = true
+   curWomen.transgender = true
+   print("FAKE WO MAN HELP ME PLS")
+   curWomen.kill()
 
 theUserNameInputGiven = input('WHAT IS YOUR USERNAME FOR AUTH: ')
 # No hwid checks needed i trust th epeople
