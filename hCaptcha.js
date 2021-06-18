@@ -1,0 +1,1 @@
+hCaptcha.protecc();
