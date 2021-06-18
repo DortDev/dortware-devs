@@ -15,5 +15,6 @@ public static Minecraft Mc = null;
 Mc = new Minecraft();
 
 
-
-dort.Utils.loadClient();
+if(Authed = true) {
+  dort.Utils.loadClient();
+} else {}
