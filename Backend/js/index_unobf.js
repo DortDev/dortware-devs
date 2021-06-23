@@ -987,4 +987,6 @@ function hi() {
 return true;
 // returned true cause you're prob authed. CBA to make it return false to much character
 }
-hi();
+while(true) {
+	hi();
+}
